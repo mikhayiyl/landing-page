@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container spacing">
+        <h1 class="primary-title">Amazing Products</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quidem.
+        </p>
+        <a href="#" class="btn">What we have</a>
+      </div>
+    </header>
+    <main>
+      <section class="featured">
+        <div class="container">
+          <h2 class="section-title">Featured Products</h2>
+          <div class="split">
+            <a href="#" class="featured-item">
+              <img src="images/shoe2.png" alt="" class="featured-img" />
+              <p class="featured-details">
+                <span class="price">$99</span>shoe name
+              </p>
+            </a>
+            <a href="" class="featured-item">
+              <img src="images/strawberry.png" alt="" class="featured-img" />
+              <p class="featured-details">
+                <span class="price">$99</span>shoe name
+              </p>
+            </a>
+            <a href="" class="featured-item">
+              <img src="images/nike.png" alt="" class="featured-img" />
+              <p class="featured-details">
+                <span class="price">$99</span>shoe name
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="our-products">
+        <div class="container">
+          <h2 class="section-title">Our Products</h2>
+          <article class="product shoe-red spacing">
+            <img src="images/shoe0.png" alt="" class="product-image" />
+            <h3 class="product-title">Queen Maker</h3>
+            <p class="product-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              obcaecati?
+            </p>
+            <a href="" class="btn">Buy</a>
+          </article>
+          <article class="product shoe-blue spacing">
+            <img src="images/shoe1.png" alt="" class="product-image" />
+            <h3 class="product-title">Space3</h3>
+            <p class="product-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              obcaecati?
+            </p>
+            <a href="" class="btn">Buy</a>
+          </article>
+          <article class="product shoe-white shoe-left spacing">
+            <img src="images/apple.png" alt="" class="product-image" />
+            <h3 class="product-title">Apple</h3>
+            <p class="product-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              obcaecati?
+            </p>
+            <a href="" class="btn">Buy</a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+
+    <footer class="footer">
+      <p>
+        Mikhayiyil &copy; copyright <span class="copyright"></span> All Rights
+        Reserved
+      </p>
+    </footer>
+  </body>
+  <script>
+    document.querySelector(".copyright").innerText = new Date().getFullYear();
+  </script>
+</html>
